@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5" height="182" viewBox="0 0 5 182">
+    <g fill="none" fill-rule="evenodd" opacity=".475">
+        <g fill="#a3ddff" fill-rule="nonzero">
+            <g transform="translate(-121 -176) translate(121 176)">
+                <path d="M4.083 170.813c0 .807-.639 1.447-1.444 1.447-.806 0-1.445-.64-1.445-1.447s.64-1.447 1.445-1.447 1.444.64 1.444 1.447zM4.167 180.247c0 .835-.667 1.503-1.5 1.503-.834 0-1.5-.668-1.5-1.503 0-.835.666-1.503 1.5-1.503.805-.028 1.5.668 1.5 1.503zM4.083 75.416c0 .807-.639 1.447-1.444 1.447-.806 0-1.445-.64-1.445-1.447s.64-1.447 1.445-1.447 1.444.64 1.444 1.447zM4.167 84.85c0 .835-.667 1.503-1.5 1.503-.834 0-1.5-.668-1.5-1.503 0-.835.666-1.503 1.5-1.503.805-.028 1.5.668 1.5 1.503z"/>
+                <ellipse cx="2.667" cy="122.558" rx="1.833" ry="1.837"/>
+                <path d="M4.583 131.964c0 1.057-.86 1.92-1.916 1.92s-1.917-.863-1.917-1.92c0-1.058.861-1.92 1.917-1.92 1.055 0 1.916.862 1.916 1.92zM4.667 141.008c0 1.113-.917 2.032-2.028 2.032S.61 142.12.61 141.008s.917-2.031 2.028-2.031c1.139 0 2.028.89 2.028 2.031zM5 159.848c0 1.308-1.056 2.338-2.333 2.338-1.278 0-2.334-1.058-2.334-2.338s1.056-2.337 2.334-2.337c1.277 0 2.333 1.057 2.333 2.337zM4.222 1.698c0 .862-.694 1.586-1.583 1.586-.861 0-1.583-.724-1.583-1.586C1.056.835 1.75.11 2.639.11s1.583.724 1.583 1.587zM4.306 11.131c0 .919-.75 1.67-1.667 1.67S.972 12.05.972 11.131c0-.918.75-1.67 1.667-1.67.944 0 1.667.752 1.667 1.67zM4.389 20.565c0 .974-.778 1.754-1.75 1.754s-1.75-.78-1.75-1.754.778-1.753 1.75-1.753 1.75.78 1.75 1.753z"/>
+                <ellipse cx="2.667" cy="29.999" rx="1.833" ry="1.837"/>
+                <path d="M4.667 48.45c0 1.113-.917 2.031-2.028 2.031S.61 49.563.61 48.45s.917-2.032 2.028-2.032c1.139 0 2.028.919 2.028 2.032zM4.778 57.856c0 1.169-.945 2.115-2.111 2.115-1.167 0-2.111-.946-2.111-2.115 0-1.169.944-2.115 2.11-2.115 1.167 0 2.112.946 2.112 2.115zM5 67.29c0 1.308-1.056 2.338-2.333 2.338-1.278 0-2.334-1.058-2.334-2.338 0-1.308 1.056-2.338 2.334-2.338C3.944 64.952 5 66.01 5 67.29z"/>
+                <path d="M3.583 95.675c0 .863-.694 1.586-1.583 1.586S.417 96.538.417 95.675c0-.862.694-1.586 1.583-1.586s1.583.724 1.583 1.586zM3.667 105.11c0 .918-.75 1.669-1.667 1.669s-1.667-.751-1.667-1.67c0-.918.75-1.67 1.667-1.67s1.667.752 1.667 1.67zM3.75 114.543c0 .974-.778 1.753-1.75 1.753s-1.75-.779-1.75-1.753c0-.974.778-1.753 1.75-1.753s1.75.78 1.75 1.753z" opacity=".2"/>
+            </g>
+        </g>
+    </g>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></svg>

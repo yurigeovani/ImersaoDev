@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   xml:space="preserve"
+   id="svg67"
+   sodipodi:docname="mail-inbox-2572.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview69"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:pageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="1.9335938"
+   inkscape:cx="128"
+   inkscape:cy="128"
+   inkscape:window-width="1366"
+   inkscape:window-height="704"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg67" />
+<desc
+   id="desc55">Created with Fabric.js 1.7.22</desc>
+<defs
+   id="defs57">
+</defs>
+<g
+   transform="translate(128 128) scale(0.72 0.72)"
+   style="fill:#ffffff"
+   id="g65">
+	<g
+   style="stroke:none;stroke-width:0;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#ffffff;fill-rule:nonzero;opacity:1"
+   transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)"
+   id="g63">
+	<path
+   d="M 42.451 52.053 c 1.503 1.155 3.595 1.155 5.098 0 l 22.398 -17.207 H 20.053 L 42.451 52.053 z"
+   style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#ffffff;fill-rule:nonzero;opacity:1"
+   transform=" matrix(1 0 0 1 0 0) "
+   stroke-linecap="round"
+   id="path59" />
+	<path
+   d="M 45 0 C 20.147 0 0 20.147 0 45 c 0 24.853 20.147 45 45 45 s 45 -20.147 45 -45 C 90 20.147 69.853 0 45 0 z M 69.947 65.631 c 0 3.02 -2.448 5.468 -5.468 5.468 H 25.521 c -3.02 0 -5.468 -2.448 -5.468 -5.468 V 34.846 l 22.099 -16.978 c 1.679 -1.29 4.016 -1.29 5.696 0 l 22.099 16.978 V 65.631 z"
+   style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#ffffff;fill-rule:nonzero;opacity:1"
+   transform=" matrix(1 0 0 1 0 0) "
+   stroke-linecap="round"
+   id="path61" />
+</g>
+</g>
+</svg>

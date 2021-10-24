@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1.0"
+    />
+    <title>Imersão DEV | alura</title>
+    <meta
+      name="description"
+      content="Seu segundo programa com JavaScript no CodePen! Você vai criar um conversor de moedas com JavaScript."
+    />
+    <link
+      rel="canonical"
+      href="https://imersao.dev/aulas/aula02-conversor-moedas"
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?display=swap&family=Open+Sans:300,400,400i,600,700,800|Noto+Serif:400,400i,700,700i"
+      rel="stylesheet"
+      crossorigin
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      href="/bundle,aulas-imersoes/_reset,aulas-imersoes/aulas-imersoes,aulas-imersoes/base,aulas-imersoes/buttons.1618239121.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/bundle,cosmos/cosmos-article-list,cosmos/cosmos-content,cosmos/cosmos-header,cosmos/cosmos-media,cosmos/cosmos-related,cosmos/cosmos-webseries,cosmos/cosmos,cosmos/cosmosPodcast,cosmos/highlight.1627325446.css"
+    />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="og:description"
+      content="Seu segundo programa com JavaScript no CodePen! Você vai criar um conversor de moedas com JavaScript."
+    />
+    <meta property="og:title" content="Conversor de moedas | Alura" />
+    <meta property="og:site_name" content="Imersão Dev" />
+    <meta
+      property="og:url"
+      content="https://imersao.dev/aulas/aula02-conversor-moedas"
+    />
+    <meta
+      property="og:image"
+      content="https://img.youtube.com/vi/00GLBMyGCsg/0.jpg"
+    />
+    <meta property="og:image:alt" content="Imersão Dev logo" />
+    <meta property="fb:app_id" content="140078819399376" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#2A7AE4" />
+  </head>
+  <body class="">
+    <script src="/assets/js/avatarOnError.1623166499.js"></script>
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1067810189950610");
+      fbq("track", "PageView");
+    </script>
+    <div class="body__wrapper">
+      <div class="class-top-header"><div class="cosmos-border"></div></div>
+      <div class="cosmos-container logo-area__header">
+        <div class="alura-logo-header">
+          <a href="https://alura.com.br">
+            <img
+              class="logo-img"
+              src="https://imersao.dev/assets/img/imersoes/aula/alura-light.1616501197.svg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      <div class="cosmos-container cosmos-header">
+        <div class="cosmos-header__container imersao-react-2">
+          <h3 class="cosmos-header__class">Imersão Dev_</h3>
+          <h1 class="cosmos-header__title">Mini projetos</h1>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="cosmos-container --class">
+        <div class="class-navigation imersao-react-2">
+          <a href="aula01/01.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Variáveis, operações e média</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula02/02.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Conversor de moedas</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula03/03.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Mentalista</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula04/04.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Array, lista e AluraFlix</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula05/05.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Funções no AluraFlix</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula06/06.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Objetos e tabelas de classificação</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula07/07.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">SuperTrunfo - lógica do jogo</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula08/08.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">SuperTrunfo - Cartas do jogo</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula09/09.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Figma, HTML e CSS</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+          <a href="aula10/10.html" class="class-navigation__class --active">
+            <h3 class="class-navigation__class__title">Portfólio</h3>
+            <span class="class-navigation__class__status">No ar</span>
+          </a>
+        </div>
+      </div>
+      <div class="socials">
+        <div class="cosmos-container --class">
+          <a
+            href="https://github.com/yurigeovani/"
+            class="socials__link --discord"
+            target="_blank"
+          >
+            <span class="socials__link__text"> github </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script>
+      var userId = (document.cookie.match("alura.userId=([^;]+)") || [
+        null,
+        null,
+      ])[1];
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+
+      ga("create", "UA-190921519-1", "imersao.dev", "tracker0", {
+        siteSpeedSampleRate: 50,
+      });
+
+      if (userId) ga("tracker0.set", "userId", userId);
+
+      ga("tracker0.require", "displayfeatures");
+      ga("tracker0.send", "pageview");
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript">
+      _linkedin_partner_id = "465017";
+      window._linkedin_data_partner_ids =
+        window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+      (function (l) {
+        if (!l) {
+          window.lintrk = function (a, b) {
+            window.lintrk.q.push([a, b]);
+          };
+          window.lintrk.q = [];
+        }
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+      })(window.lintrk);
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        alt=""
+        src="https://px.ads.linkedin.com/collect/?pid=465017&fmt=gif"
+      />
+    </noscript>
+  </body>
+</html>
