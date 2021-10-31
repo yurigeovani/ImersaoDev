@@ -8,31 +8,36 @@
     <title>Imersão Dev Alura - Aula 04</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="page-title">Aluraflix</h1>
-      <img
-        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
-        class="page-logo"
-        alt=""
-      />
-    </div>
-    <a href="https://alura.com.br/" target="_blank">
-      <img
-        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
-        alt=""
-        class="alura-logo"
-      />
-    </a>
-    
-    <div id = "listFilms"></div>
+    <header>
+      <div class="container">
+        <h1 class="page-title">Aluraflix</h1>
+      </div>
+      <a href="/index.html">
+        <img src="./../../img/imersaoDev.svg" alt="" class="logoImersaoDev">
+      </a>
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+        />
+      </a>
+    </header>
+    <main>
+      <div class="adicionar">
+        <!-- <form>
+          <label for="novoFilme">Adicionar novo filme: </label>
+          <input type="text" id="novoFilme" size="100" placeholder="Insira o endereço da imagem">
+          <input id="btnAdd" type="submit" onclick="adicionar()" value="Adicionar">
+        </form> -->
+        
+        <label for="novoFilme">Adicionar novo filme:</label>
+        <input type="text" id="novoFilme" size="100" placeholder="Insira o endereço da imagem">
+        <button id="btnAdd" type="submit" onclick="adicionar()">Adicionar</button>
+      </div>
 
-    <div class="adicionar">
-      <label for="novoFilme">Adicionar novo filme:</label>
-      <br>
-      <input type="text" id="novoFilme" />
-      <br>
-      <button type="submit" onclick="adicionar()">Adicionar</button>
-    </div>
+      <div id = "listFilms"></div>
+    </main>
   </body>
   <script src="04.js"></script>
 </html>

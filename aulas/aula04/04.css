@@ -28,6 +28,13 @@ body {
   width: 200px;
 }
 
+.logoImersaoDev{
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .alura-logo {
   width: 40px;
   position: absolute;
@@ -35,21 +42,14 @@ body {
   right: 10px;
 }
 
-body > img {
-  margin: 0 10px;
-}
-
-img {
+.film {
+  margin: 0 5px;
   max-height: 250px;
 }
 
 .adicionar {
-  line-height: 1.75;
-  height: 20%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
+  line-height: 60px;
+  position: relative;
 }
 
 .adicionar button {
@@ -67,5 +67,6 @@ img {
 .adicionar input {
   display: block;
   margin: 0 auto;
-  padding: 6px 200px;
+  padding: 6px;
+  size: 100;
 }

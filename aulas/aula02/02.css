@@ -28,6 +28,13 @@ body {
   width: 200px;
 }
 
+.logoImersaoDev{
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .alura-logo {
   width: 40px;
   position: absolute;
